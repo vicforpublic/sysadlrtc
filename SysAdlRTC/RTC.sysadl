@@ -1,0 +1,65 @@
+Model SysADLArchitecture;
+package SysADL.types {
+	value type Int {
+	}
+	value type Boolean {
+	}
+	value type String {
+	}
+	value type Void {
+	}
+	value type Real {
+	}
+	dimension Temperature unit Celcius {
+		dimension = Temperature } unit Fahrenheit {
+			dimension = Temperature } value type Temperature {
+				dimension = Temperature
+			}
+			value type CelciusTemperature extends Temperature {
+				unit = Celcius dimension = Temperature
+			}
+			value type FahrenheitTemperature extends Temperature {
+				unit = Fahrenheit dimension = Temperature
+			}
+			enum Command {
+				On, Off
+			}
+			datatype Commands {
+				attributes cooler : Command heater : Command
+			}
+		}
+		package RTCSystemConnectors {
+			import RTCSystemPorts;
+		}
+		package RTCSystemComponents {
+			import RTCSystemPorts;
+			import SysADL.types;
+			import RTCSystemConnectors;
+		}
+		package RTCSystemPorts {
+			import SysADL.types;
+			port def FTemperatureOPT {
+				flow out SysADL.types.FahrenheitTemperature
+			}
+			port def FTemperatureIPT {
+				flow in SysADL.types.FahrenheitTemperature
+			}
+			port def CTemperatureOPT {
+				flow out SysADL.types.CelciusTemperature
+			}
+			port def CTemperatureIPT {
+				flow in SysADL.types.CelciusTemperature
+			}
+			port def PresenceOPT {
+				flow out SysADL.types.Boolean
+			}
+			port def PresenceIPT {
+				flow in SysADL.types.Boolean
+			}
+			port def CommandOPT {
+				flow out SysADL.types.Command
+			}
+			port def CommandIPT {
+				flow in SysADL.types.Command
+			}
+		}
