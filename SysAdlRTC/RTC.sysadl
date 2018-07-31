@@ -30,11 +30,75 @@ package SysADL.types {
 		}
 		package RTCSystemConnectors {
 			import RTCSystemPorts;
+		connector def FahrenheitToCelciusCN {
+				participants ~ source : RTCSystemPorts.FTemperatureOPT {
+				}
+				~ destination : RTCSystemPorts.CTemperatureIPT {
+				}
+				flows SysADL.types.FahrenheitTemperature from source to destination
+			}
+			connector def CTemperatureCN {
+				participants ~ source : RTCSystemPorts.CTemperatureOPT {
+				}
+				~ destination : RTCSystemPorts.CTemperatureIPT {
+				}
+				flows SysADL.types.CelciusTemperature from source to destination
+			}
+			connector def DetectPresenceCN {
+				participants ~ source : RTCSystemPorts.PresenceOPT {
+				}
+				~ destination : RTCSystemPorts.PresenceIPT {
+				}
+				flows SysADL.types.Boolean from source to destination
+			}
+			connector def SendCommandCN {
+				participants ~ source : RTCSystemPorts.CommandOPT {
+				}
+				~ destination : RTCSystemPorts.CommandIPT {
+				}
+				flows SysADL.types.Command from source to destination
+			}
 		}
 		package RTCSystemComponents {
 			import RTCSystemPorts;
 			import SysADL.types;
 			import RTCSystemConnectors;
+		component def RTCSystem {
+			}
+			component def PresenceSensorCP {
+				ports detected : RTCSystemPorts.PresenceOPT {
+				}
+			}
+			component def HeaterCP {
+				ports controller : RTCSystemPorts.CommandIPT {
+				}
+			}
+			component def CoolerCP {
+				ports controller : RTCSystemPorts.CommandIPT {
+				}
+			}
+			component def RoomTemperatureControllerCP {
+				ports userTemp : RTCSystemPorts.CTemperatureIPT {
+				}
+				detected : RTCSystemPorts.PresenceIPT {
+				}
+				cooling : RTCSystemPorts.CommandIPT {
+				}
+				localTemp2 : RTCSystemPorts.CTemperatureIPT {
+				}
+				localTemp1 : RTCSystemPorts.CTemperatureIPT {
+				}
+				heating : RTCSystemPorts.CommandOPT {
+				}
+			}
+			component def TemperatureSensorCP {
+				ports current : RTCSystemPorts.FTemperatureOPT {
+				}
+			}
+			component def userInterfaceCP {
+				ports desired : RTCSystemPorts.CTemperatureOPT {
+				}
+			}
 		}
 		package RTCSystemPorts {
 			import SysADL.types;

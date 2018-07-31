@@ -23,6 +23,14 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']"/>
         <target xmi:type="sysADL_Sintax:Package" href="RTC.sysadl#//@packages[name='RTCSystemPorts']"/>
       </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_cnNIIJT7EeiygYT0QjcDrw" name="Block Definition Diagram (Structural BDD)" repPath="#_cnAT0JT7EeiygYT0QjcDrw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']"/>
+        <target xmi:type="sysADL_Sintax:Package" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_f29hV5T-EeiygYT0QjcDrw" name="Block Definition Diagram (Structural BDD)" repPath="#_f26eAJT-EeiygYT0QjcDrw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']"/>
+        <target xmi:type="sysADL_Sintax:Package" href="RTC.sysadl#//@packages[name='RTCSystemComponents']"/>
+      </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_QDVwkIuHEeiBNpzI2BhTjg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Executable']"/>
@@ -721,8 +729,8 @@
         </ownedElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_8cXwAIuREeiBNpzI2BhTjg" name="&lt;&lt;value type>>&#xA;Temperature" incomingEdges="_8cdPkIuREeiBNpzI2BhTjg _8cd2oouREeiBNpzI2BhTjg">
-        <target xmi:type="sysADL_Sintax:ValueTypeDef" href="RTC.sysadl#//@packages[name='SysADL.types']/@architectures[name='Temperature']"/>
-        <semanticElements xmi:type="sysADL_Sintax:ValueTypeDef" href="RTC.sysadl#//@packages[name='SysADL.types']/@architectures[name='Temperature']"/>
+        <target xmi:type="sysADL_Sintax:DimensionDef" href="RTC.sysadl#//@packages[name='SysADL.types']/@architectures[name='Temperature']"/>
+        <semanticElements xmi:type="sysADL_Sintax:DimensionDef" href="RTC.sysadl#//@packages[name='SysADL.types']/@architectures[name='Temperature']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -1032,5 +1040,793 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_kSxINouQEeiBNpzI2BhTjg"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer"/>
     <target xmi:type="sysADL_Sintax:Package" href="RTC.sysadl#//@packages[name='RTCSystemPorts']"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_cnKr4JT7EeiygYT0QjcDrw" name="Block Definition Diagram (Structural BDD)" uid="_cnAT0JT7EeiygYT0QjcDrw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_cnKr4ZT7EeiygYT0QjcDrw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_cnKr4pT7EeiygYT0QjcDrw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_cnfcAJT7EeiygYT0QjcDrw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_cnfcAZT7EeiygYT0QjcDrw" type="Sirius" element="_cnKr4JT7EeiygYT0QjcDrw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_cnh4QJT7EeiygYT0QjcDrw" type="2002" element="_cnKr5JT7EeiygYT0QjcDrw">
+          <children xmi:type="notation:Node" xmi:id="_cnmJsJT7EeiygYT0QjcDrw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_cnmwwJT7EeiygYT0QjcDrw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_e_LFEJT7EeiygYT0QjcDrw" type="3009" element="_e-XMwJT7EeiygYT0QjcDrw">
+              <children xmi:type="notation:Node" xmi:id="_uBJkkJT9EeiygYT0QjcDrw" type="3012" element="_uAuGwJT9EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_uBKysJT9EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_uBKysZT9EeiygYT0QjcDrw" x="-145"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_uBQSQJT9EeiygYT0QjcDrw" type="3003" element="_uA3QsJT9EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_uBQSQZT9EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBQSQpT9EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_uBJkkZT9EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBJkkpT9EeiygYT0QjcDrw" x="-12" y="29" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0IhygJT9EeiygYT0QjcDrw" type="3012" element="_0Ic6AJT9EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_0Ihyg5T9EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0IhyhJT9EeiygYT0QjcDrw" x="21"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0IiZkJT9EeiygYT0QjcDrw" type="3003" element="_0IdhEJT9EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0IiZkZT9EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0IiZkpT9EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0IhygZT9EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0IhygpT9EeiygYT0QjcDrw" x="132" y="30" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_e_LsIJT7EeiygYT0QjcDrw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_e_XSUJT7EeiygYT0QjcDrw" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_e_XSUZT7EeiygYT0QjcDrw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_e_XSUpT7EeiygYT0QjcDrw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_e_LFEZT7EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e_LFEpT7EeiygYT0QjcDrw" x="255" y="45" height="58"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_DwJnoJT-EeiygYT0QjcDrw" type="3009" element="_DvsUoJT-EeiygYT0QjcDrw">
+              <children xmi:type="notation:Node" xmi:id="_Nd77kJT-EeiygYT0QjcDrw" type="3012" element="_NdyxoJT-EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_Nd77k5T-EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_Nd77lJT-EeiygYT0QjcDrw" x="-146"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_Nd9JsJT-EeiygYT0QjcDrw" type="3003" element="_NdzYsJT-EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_Nd9JsZT-EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nd9JspT-EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_Nd77kZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nd77kpT-EeiygYT0QjcDrw" x="-12" y="35" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_O8pVQJT-EeiygYT0QjcDrw" type="3012" element="_O8lq4JT-EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_O8p8UJT-EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_O8p8UZT-EeiygYT0QjcDrw" x="21"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_O8p8UpT-EeiygYT0QjcDrw" type="3003" element="_O8lq4ZT-EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_O8p8U5T-EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O8p8VJT-EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_O8pVQZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O8pVQpT-EeiygYT0QjcDrw" x="130" y="35" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_DwJno5T-EeiygYT0QjcDrw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_DwJnpJT-EeiygYT0QjcDrw" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_DwJnpZT-EeiygYT0QjcDrw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_DwJnppT-EeiygYT0QjcDrw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_DwJnoZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DwJnopT-EeiygYT0QjcDrw" x="250" y="144" width="140" height="63"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_EBRz4JT-EeiygYT0QjcDrw" type="3009" element="_EBAHEJT-EeiygYT0QjcDrw">
+              <children xmi:type="notation:Node" xmi:id="_QIVFQJT-EeiygYT0QjcDrw" type="3012" element="_QIRa4JT-EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_QIVsUJT-EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_QIVsUZT-EeiygYT0QjcDrw" x="-120"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_QIVsUpT-EeiygYT0QjcDrw" type="3003" element="_QIRa4ZT-EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_QIVsU5T-EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QIVsVJT-EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_QIVFQZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QIVFQpT-EeiygYT0QjcDrw" x="-12" y="40" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_Rb2ioJT-EeiygYT0QjcDrw" type="3012" element="_RbzfUJT-EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_Rb3JsJT-EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_Rb3JsZT-EeiygYT0QjcDrw" x="21"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_Rb3JspT-EeiygYT0QjcDrw" type="3003" element="_RbzfUZT-EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_Rb3Js5T-EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rb3JtJT-EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_Rb2ioZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rb2iopT-EeiygYT0QjcDrw" x="130" y="35" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_EBSa8JT-EeiygYT0QjcDrw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_EBSa8ZT-EeiygYT0QjcDrw" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_EBSa8pT-EeiygYT0QjcDrw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_EBSa85T-EeiygYT0QjcDrw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_EBRz4ZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EBRz4pT-EeiygYT0QjcDrw" x="250" y="239" width="140" height="63"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_JLUP0JT-EeiygYT0QjcDrw" type="3009" element="_JLCjAJT-EeiygYT0QjcDrw">
+              <children xmi:type="notation:Node" xmi:id="_UXcxEJT-EeiygYT0QjcDrw" type="3012" element="_UXZGsJT-EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_UXcxE5T-EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_UXcxFJT-EeiygYT0QjcDrw" x="-127"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_UXdYIJT-EeiygYT0QjcDrw" type="3003" element="_UXZGsZT-EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_UXdYIZT-EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UXdYIpT-EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_UXcxEZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UXcxEpT-EeiygYT0QjcDrw" x="-12" y="35" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_VRxEQJT-EeiygYT0QjcDrw" type="3012" element="_VRuA8JT-EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_VRxrUJT-EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_VRxrUZT-EeiygYT0QjcDrw" x="21"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_VRxrUpT-EeiygYT0QjcDrw" type="3003" element="_VRuA8ZT-EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_VRxrU5T-EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VRxrVJT-EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_VRxEQZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VRxEQpT-EeiygYT0QjcDrw" x="113" y="35" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_JLU24JT-EeiygYT0QjcDrw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_JLU24ZT-EeiygYT0QjcDrw" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_JLU24pT-EeiygYT0QjcDrw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_JLU245T-EeiygYT0QjcDrw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_JLUP0ZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JLUP0pT-EeiygYT0QjcDrw" x="260" y="324" width="123" height="63"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_cnmwwZT7EeiygYT0QjcDrw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_cnmwwpT7EeiygYT0QjcDrw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_cnh4QZT7EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cnh4QpT7EeiygYT0QjcDrw" x="20" y="20" width="1043" height="528"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_cnfcApT7EeiygYT0QjcDrw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_8JW1YJT9EeiygYT0QjcDrw" type="4001" element="_8If5wJT9EeiygYT0QjcDrw" source="_uBJkkJT9EeiygYT0QjcDrw" target="_0IhygJT9EeiygYT0QjcDrw">
+          <children xmi:type="notation:Node" xmi:id="_8JYDgJT9EeiygYT0QjcDrw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8JYDgZT9EeiygYT0QjcDrw" x="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8JYqkJT9EeiygYT0QjcDrw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8JYqkZT9EeiygYT0QjcDrw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8JYqkpT9EeiygYT0QjcDrw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8JYqk5T9EeiygYT0QjcDrw" x="-1" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_8JW1YZT9EeiygYT0QjcDrw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_8JW1YpT9EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8JW1Y5T9EeiygYT0QjcDrw" points="[0, 0, -124, -1]$[124, 1, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8JafwJT9EeiygYT0QjcDrw" id="(1.0,0.8)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8JafwZT9EeiygYT0QjcDrw" id="(0.0,0.8)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_bSFn8JT-EeiygYT0QjcDrw" type="4001" element="_bR5asJT-EeiygYT0QjcDrw" source="_Nd77kJT-EeiygYT0QjcDrw" target="_O8pVQJT-EeiygYT0QjcDrw">
+          <children xmi:type="notation:Node" xmi:id="_bSFn9JT-EeiygYT0QjcDrw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bSFn9ZT-EeiygYT0QjcDrw" x="6" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bSFn9pT-EeiygYT0QjcDrw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bSFn95T-EeiygYT0QjcDrw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bSFn-JT-EeiygYT0QjcDrw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bSFn-ZT-EeiygYT0QjcDrw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_bSFn8ZT-EeiygYT0QjcDrw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_bSFn8pT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bSFn85T-EeiygYT0QjcDrw" points="[0, 0, -122, 0]$[122, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bSGPAJT-EeiygYT0QjcDrw" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bSGPAZT-EeiygYT0QjcDrw" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_cUHssJT-EeiygYT0QjcDrw" type="4001" element="_cT5qQJT-EeiygYT0QjcDrw" source="_QIVFQJT-EeiygYT0QjcDrw" target="_Rb2ioJT-EeiygYT0QjcDrw">
+          <children xmi:type="notation:Node" xmi:id="_cUHstJT-EeiygYT0QjcDrw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cUHstZT-EeiygYT0QjcDrw" x="-3" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cUHstpT-EeiygYT0QjcDrw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cUHst5T-EeiygYT0QjcDrw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cUHsuJT-EeiygYT0QjcDrw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cUHsuZT-EeiygYT0QjcDrw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_cUHssZT-EeiygYT0QjcDrw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_cUHsspT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cUHss5T-EeiygYT0QjcDrw" points="[0, 0, -122, 0]$[122, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cUITwJT-EeiygYT0QjcDrw" id="(1.0,0.25)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cUITwZT-EeiygYT0QjcDrw" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_dHYVoJT-EeiygYT0QjcDrw" type="4001" element="_dHK6QJT-EeiygYT0QjcDrw" source="_UXcxEJT-EeiygYT0QjcDrw" target="_VRxEQJT-EeiygYT0QjcDrw">
+          <children xmi:type="notation:Node" xmi:id="_dHY8sJT-EeiygYT0QjcDrw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dHY8sZT-EeiygYT0QjcDrw" x="5" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dHY8spT-EeiygYT0QjcDrw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dHY8s5T-EeiygYT0QjcDrw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dHY8tJT-EeiygYT0QjcDrw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dHY8tZT-EeiygYT0QjcDrw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_dHYVoZT-EeiygYT0QjcDrw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_dHYVopT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dHYVo5T-EeiygYT0QjcDrw" points="[0, 0, -105, 0]$[105, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dHY8tpT-EeiygYT0QjcDrw" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dHY8t5T-EeiygYT0QjcDrw" id="(0.0,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_cnKr5JT7EeiygYT0QjcDrw" name="bdd [Structure] RTCSystemConnectors">
+      <target xmi:type="sysADL_Sintax:Package" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']"/>
+      <semanticElements xmi:type="sysADL_Sintax:Package" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_cnKr5ZT7EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_e-XMwJT7EeiygYT0QjcDrw" name="&lt;&lt;connector>>&#xA;FahrenheitToCelciusCN">
+        <target xmi:type="sysADL_Sintax:ConnectorDef" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='FahrenheitToCelciusCN']"/>
+        <semanticElements xmi:type="sysADL_Sintax:ConnectorDef" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='FahrenheitToCelciusCN']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_uAuGwJT9EeiygYT0QjcDrw" name="source:~FTemperatureOPT" outgoingEdges="_8If5wJT9EeiygYT0QjcDrw" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='FahrenheitToCelciusCN']/@ports.0"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='FahrenheitToCelciusCN']/@ports.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_uA3QsJT9EeiygYT0QjcDrw" showIcon="false" borderLineStyle="dash" width="2" height="2" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_0Ic6AJT9EeiygYT0QjcDrw" name="destination:~CTemperatureIPT" incomingEdges="_8If5wJT9EeiygYT0QjcDrw" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='FahrenheitToCelciusCN']/@ports.1"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='FahrenheitToCelciusCN']/@ports.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_0IdhEJT9EeiygYT0QjcDrw" showIcon="false" borderLineStyle="dash" width="2" height="2" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_e-g9wJT7EeiygYT0QjcDrw" iconPath="/SysADL.viewpoints/icons/Connector.gif" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_DvsUoJT-EeiygYT0QjcDrw" name="&lt;&lt;connector>>&#xA;CTemperatureCN">
+        <target xmi:type="sysADL_Sintax:ConnectorDef" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='CTemperatureCN']"/>
+        <semanticElements xmi:type="sysADL_Sintax:ConnectorDef" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='CTemperatureCN']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_NdyxoJT-EeiygYT0QjcDrw" name="source:~CTemperatureOPT" outgoingEdges="_bR5asJT-EeiygYT0QjcDrw" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='CTemperatureCN']/@ports.0"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='CTemperatureCN']/@ports.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_NdzYsJT-EeiygYT0QjcDrw" showIcon="false" borderLineStyle="dash" width="2" height="2" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_O8lq4JT-EeiygYT0QjcDrw" name="destination:~CTemperatureIPT" incomingEdges="_bR5asJT-EeiygYT0QjcDrw" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='CTemperatureCN']/@ports.1"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='CTemperatureCN']/@ports.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_O8lq4ZT-EeiygYT0QjcDrw" showIcon="false" borderLineStyle="dash" width="2" height="2" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Dvs7sJT-EeiygYT0QjcDrw" iconPath="/SysADL.viewpoints/icons/Connector.gif" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_EBAHEJT-EeiygYT0QjcDrw" name="&lt;&lt;connector>>&#xA;DetectPresenceCN">
+        <target xmi:type="sysADL_Sintax:ConnectorDef" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='DetectPresenceCN']"/>
+        <semanticElements xmi:type="sysADL_Sintax:ConnectorDef" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='DetectPresenceCN']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_QIRa4JT-EeiygYT0QjcDrw" name="source:~PresenceOPT" outgoingEdges="_cT5qQJT-EeiygYT0QjcDrw" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='DetectPresenceCN']/@ports.0"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='DetectPresenceCN']/@ports.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_QIRa4ZT-EeiygYT0QjcDrw" showIcon="false" borderLineStyle="dash" width="2" height="2" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_RbzfUJT-EeiygYT0QjcDrw" name="destination:~PresenceIPT" incomingEdges="_cT5qQJT-EeiygYT0QjcDrw" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='DetectPresenceCN']/@ports.1"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='DetectPresenceCN']/@ports.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_RbzfUZT-EeiygYT0QjcDrw" showIcon="false" borderLineStyle="dash" width="2" height="2" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_EBAuIJT-EeiygYT0QjcDrw" iconPath="/SysADL.viewpoints/icons/Connector.gif" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_JLCjAJT-EeiygYT0QjcDrw" name="&lt;&lt;connector>>&#xA;SendCommandCN">
+        <target xmi:type="sysADL_Sintax:ConnectorDef" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='SendCommandCN']"/>
+        <semanticElements xmi:type="sysADL_Sintax:ConnectorDef" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='SendCommandCN']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_UXZGsJT-EeiygYT0QjcDrw" name="source:~CommandOPT" outgoingEdges="_dHK6QJT-EeiygYT0QjcDrw" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='SendCommandCN']/@ports.0"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='SendCommandCN']/@ports.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_UXZGsZT-EeiygYT0QjcDrw" showIcon="false" borderLineStyle="dash" width="2" height="2" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_VRuA8JT-EeiygYT0QjcDrw" name="destination:~CommandIPT" incomingEdges="_dHK6QJT-EeiygYT0QjcDrw" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='SendCommandCN']/@ports.1"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='SendCommandCN']/@ports.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_VRuA8ZT-EeiygYT0QjcDrw" showIcon="false" borderLineStyle="dash" width="2" height="2" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@borderedNodeMappings[name='BDD.Connector.PortRef']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_JLDxIJT-EeiygYT0QjcDrw" iconPath="/SysADL.viewpoints/icons/Connector.gif" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ConnectorDef']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_8If5wJT9EeiygYT0QjcDrw" name="FahrenheitTemperature" sourceNode="_uAuGwJT9EeiygYT0QjcDrw" targetNode="_0Ic6AJT9EeiygYT0QjcDrw">
+      <target xmi:type="sysADL_Sintax:Flow" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='FahrenheitToCelciusCN']/@flows.0"/>
+      <semanticElements xmi:type="sysADL_Sintax:Flow" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='FahrenheitToCelciusCN']/@flows.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_8Igg0JT9EeiygYT0QjcDrw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@edgeMappings[name='BDD.Flow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_8Igg0ZT9EeiygYT0QjcDrw" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@edgeMappings[name='BDD.Flow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_bR5asJT-EeiygYT0QjcDrw" name="CelciusTemperature" sourceNode="_NdyxoJT-EeiygYT0QjcDrw" targetNode="_O8lq4JT-EeiygYT0QjcDrw">
+      <target xmi:type="sysADL_Sintax:Flow" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='CTemperatureCN']/@flows.0"/>
+      <semanticElements xmi:type="sysADL_Sintax:Flow" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='CTemperatureCN']/@flows.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_bR5asZT-EeiygYT0QjcDrw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@edgeMappings[name='BDD.Flow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_bR5aspT-EeiygYT0QjcDrw" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@edgeMappings[name='BDD.Flow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_cT5qQJT-EeiygYT0QjcDrw" name="Boolean" sourceNode="_QIRa4JT-EeiygYT0QjcDrw" targetNode="_RbzfUJT-EeiygYT0QjcDrw">
+      <target xmi:type="sysADL_Sintax:Flow" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='DetectPresenceCN']/@flows.0"/>
+      <semanticElements xmi:type="sysADL_Sintax:Flow" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='DetectPresenceCN']/@flows.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_cT5qQZT-EeiygYT0QjcDrw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@edgeMappings[name='BDD.Flow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_cT5qQpT-EeiygYT0QjcDrw" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@edgeMappings[name='BDD.Flow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_dHK6QJT-EeiygYT0QjcDrw" name="Command" sourceNode="_UXZGsJT-EeiygYT0QjcDrw" targetNode="_VRuA8JT-EeiygYT0QjcDrw">
+      <target xmi:type="sysADL_Sintax:Flow" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='SendCommandCN']/@flows.0"/>
+      <semanticElements xmi:type="sysADL_Sintax:Flow" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']/@architectures[name='SendCommandCN']/@flows.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_dHLhUJT-EeiygYT0QjcDrw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@edgeMappings[name='BDD.Flow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_dHLhUZT-EeiygYT0QjcDrw" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@edgeMappings[name='BDD.Flow']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_cnKr5pT7EeiygYT0QjcDrw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer"/>
+    <target xmi:type="sysADL_Sintax:Package" href="RTC.sysadl#//@packages[name='RTCSystemConnectors']"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_f29hUJT-EeiygYT0QjcDrw" name="Block Definition Diagram (Structural BDD)" uid="_f26eAJT-EeiygYT0QjcDrw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_f29hUZT-EeiygYT0QjcDrw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_f29hUpT-EeiygYT0QjcDrw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_f3BywJT-EeiygYT0QjcDrw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_f3BywZT-EeiygYT0QjcDrw" type="Sirius" element="_f29hUJT-EeiygYT0QjcDrw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_f3Byw5T-EeiygYT0QjcDrw" type="2002" element="_f29hVJT-EeiygYT0QjcDrw">
+          <children xmi:type="notation:Node" xmi:id="_f3ByxpT-EeiygYT0QjcDrw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_f3CZ0JT-EeiygYT0QjcDrw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_iNVi0JT-EeiygYT0QjcDrw" type="3009" element="_iMWrYJT-EeiygYT0QjcDrw">
+              <children xmi:type="notation:Node" xmi:id="_iNVi05T-EeiygYT0QjcDrw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_iNVi1JT-EeiygYT0QjcDrw" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_iNVi1ZT-EeiygYT0QjcDrw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_iNVi1pT-EeiygYT0QjcDrw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_iNVi0ZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iNVi0pT-EeiygYT0QjcDrw" x="390" y="59" width="183" height="68"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_kePOcJT-EeiygYT0QjcDrw" type="3009" element="_kd6eUJT-EeiygYT0QjcDrw">
+              <children xmi:type="notation:Node" xmi:id="_nwtEwJT-EeiygYT0QjcDrw" type="3012" element="_nv2wMJT-EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_nwtr0pT-EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_nwtr05T-EeiygYT0QjcDrw" x="-63" y="-14"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_nwuS4JT-EeiygYT0QjcDrw" type="3003" element="_nwEyoJT-EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_nwuS4ZT-EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nwuS4pT-EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_nwtr0JT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nwtr0ZT-EeiygYT0QjcDrw" x="47" y="-12" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_keP1gJT-EeiygYT0QjcDrw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_keP1gZT-EeiygYT0QjcDrw" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_keP1gpT-EeiygYT0QjcDrw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_keP1g5T-EeiygYT0QjcDrw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_kePOcZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kePOcpT-EeiygYT0QjcDrw" x="45" y="84"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qjUWUJT-EeiygYT0QjcDrw" type="3009" element="_qi4RcJT-EeiygYT0QjcDrw">
+              <children xmi:type="notation:Node" xmi:id="_tKxgwJT-EeiygYT0QjcDrw" type="3012" element="_tKmhoJT-EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_tKyH0JT-EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_tKyH0ZT-EeiygYT0QjcDrw" x="-66" y="21"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_tKyu4JT-EeiygYT0QjcDrw" type="3003" element="_tKmhoZT-EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_tKyu4ZT-EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tKyu4pT-EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_tKxgwZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tKxgwpT-EeiygYT0QjcDrw" x="40" y="15" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qjU9YJT-EeiygYT0QjcDrw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_qjU9YZT-EeiygYT0QjcDrw" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_qjU9YpT-EeiygYT0QjcDrw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_qjU9Y5T-EeiygYT0QjcDrw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qjUWUZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qjUWUpT-EeiygYT0QjcDrw" x="95" y="209"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vpb7kJT-EeiygYT0QjcDrw" type="3009" element="_vpGkYJT-EeiygYT0QjcDrw">
+              <children xmi:type="notation:Node" xmi:id="_2NF10JT-EeiygYT0QjcDrw" type="3012" element="_2M7dwJT-EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_2NGc4JT-EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_2NGc4ZT-EeiygYT0QjcDrw" x="-62" y="21"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_2NHD8JT-EeiygYT0QjcDrw" type="3003" element="_2M7dwZT-EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_2NHD8ZT-EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2NHD8pT-EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_2NF10ZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2NF10pT-EeiygYT0QjcDrw" x="34" y="41" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_vpb7k5T-EeiygYT0QjcDrw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_vpb7lJT-EeiygYT0QjcDrw" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_vpb7lZT-EeiygYT0QjcDrw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_vpb7lpT-EeiygYT0QjcDrw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vpb7kZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vpb7kpT-EeiygYT0QjcDrw" x="206" y="304"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_39rpsJT-EeiygYT0QjcDrw" type="3009" element="_39eOUJT-EeiygYT0QjcDrw">
+              <children xmi:type="notation:Node" xmi:id="_62KSsJT-EeiygYT0QjcDrw" type="3012" element="_61_6oJT-EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_62K5wJT-EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_62K5wZT-EeiygYT0QjcDrw" x="21"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_62Lg0JT-EeiygYT0QjcDrw" type="3003" element="_62AhsJT-EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_62Lg0ZT-EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62Lg0pT-EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_62KSsZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62KSspT-EeiygYT0QjcDrw" x="70" y="10" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_8_ogoJT-EeiygYT0QjcDrw" type="3012" element="_8_eIkJT-EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_8_ogo5T-EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_8_ogpJT-EeiygYT0QjcDrw" x="21"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_8_pHsJT-EeiygYT0QjcDrw" type="3003" element="_8_evoJT-EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_8_pHsZT-EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8_pHspT-EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_8_ogoZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8_ogopT-EeiygYT0QjcDrw" x="202" y="10" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="__ZJVsJT-EeiygYT0QjcDrw" type="3012" element="__YvGAJT-EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="__ZJ8wJT-EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="__ZJ8wZT-EeiygYT0QjcDrw" x="21"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="__ZJ8wpT-EeiygYT0QjcDrw" type="3003" element="__YvtEJT-EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="__ZJ8w5T-EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="__ZJ8xJT-EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="__ZJVsZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="__ZJVspT-EeiygYT0QjcDrw" x="202" y="44" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_Cs_sEJT_EeiygYT0QjcDrw" type="3012" element="_Cs0s8JT_EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_CtATIJT_EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_CtATIZT_EeiygYT0QjcDrw" x="21" y="7"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_CtA6MJT_EeiygYT0QjcDrw" type="3003" element="_Cs1UAJT_EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_CtA6MZT_EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CtA6MpT_EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_Cs_sEZT_EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cs_sEpT_EeiygYT0QjcDrw" x="165" y="56" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_EDC5AJT_EeiygYT0QjcDrw" type="3012" element="_EC3S0JT_EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_EDDgEJT_EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_EDDgEZT_EeiygYT0QjcDrw" x="-165" y="7"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_EDEHIJT_EeiygYT0QjcDrw" type="3003" element="_EC354JT_EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_EDEHIZT_EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EDEHIpT_EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_EDC5AZT_EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EDC5ApT_EeiygYT0QjcDrw" x="140" y="56" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_Ki0_4JT_EeiygYT0QjcDrw" type="3012" element="_KiqAwJT_EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_Ki0_45T_EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_Ki0_5JT_EeiygYT0QjcDrw" x="-152" y="7"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_Ki1m8JT_EeiygYT0QjcDrw" type="3003" element="_Kiqn0JT_EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_Ki1m8ZT_EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ki1m8pT_EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_Ki0_4ZT_EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ki0_4pT_EeiygYT0QjcDrw" x="-12" y="40" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_39rps5T-EeiygYT0QjcDrw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_39sQwJT-EeiygYT0QjcDrw" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_39sQwZT-EeiygYT0QjcDrw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_39sQwpT-EeiygYT0QjcDrw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_39rpsZT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_39rpspT-EeiygYT0QjcDrw" x="415" y="339" width="212" height="66"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_OMM6UJT_EeiygYT0QjcDrw" type="3009" element="_OL4KMJT_EeiygYT0QjcDrw">
+              <children xmi:type="notation:Node" xmi:id="_TF83gJT_EeiygYT0QjcDrw" type="3012" element="_TFzGgJT_EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_TF83g5T_EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_TF83hJT_EeiygYT0QjcDrw" x="-71" y="21"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_TF9ekJT_EeiygYT0QjcDrw" type="3003" element="_TFzGgZT_EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_TF9ekZT_EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TF9ekpT_EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_TF83gZT_EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TF83gpT_EeiygYT0QjcDrw" x="90" y="30" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_OMM6U5T_EeiygYT0QjcDrw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_OMNhYJT_EeiygYT0QjcDrw" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_OMNhYZT_EeiygYT0QjcDrw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_OMNhYpT_EeiygYT0QjcDrw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_OMM6UZT_EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OMM6UpT_EeiygYT0QjcDrw" x="660" y="229" width="148"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Uixa0JT_EeiygYT0QjcDrw" type="3009" element="_UilNkJT_EeiygYT0QjcDrw">
+              <children xmi:type="notation:Node" xmi:id="_WULuEJT_EeiygYT0QjcDrw" type="3012" element="_WT-5wJT_EeiygYT0QjcDrw">
+                <children xmi:type="notation:Node" xmi:id="_WUMVIJT_EeiygYT0QjcDrw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_WUMVIZT_EeiygYT0QjcDrw" x="-75" y="21"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_WUM8MJT_EeiygYT0QjcDrw" type="3003" element="_WT_g0JT_EeiygYT0QjcDrw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_WUM8MZT_EeiygYT0QjcDrw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WUM8MpT_EeiygYT0QjcDrw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_WULuEZT_EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WULuEpT_EeiygYT0QjcDrw" x="25" y="30" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_UiyB4JT_EeiygYT0QjcDrw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_UiyB4ZT_EeiygYT0QjcDrw" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_UiyB4pT_EeiygYT0QjcDrw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_UiyB45T_EeiygYT0QjcDrw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Uixa0ZT_EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uixa0pT_EeiygYT0QjcDrw" x="785" y="99"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f3CZ0ZT-EeiygYT0QjcDrw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f3CZ0pT-EeiygYT0QjcDrw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_f3ByxJT-EeiygYT0QjcDrw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f3ByxZT-EeiygYT0QjcDrw" width="978" height="493"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_f3BywpT-EeiygYT0QjcDrw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_f29hVJT-EeiygYT0QjcDrw" name="bdd [Structure] RTCSystemComponents">
+      <target xmi:type="sysADL_Sintax:Package" href="RTC.sysadl#//@packages[name='RTCSystemComponents']"/>
+      <semanticElements xmi:type="sysADL_Sintax:Package" href="RTC.sysadl#//@packages[name='RTCSystemComponents']"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_f29hVZT-EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_iMWrYJT-EeiygYT0QjcDrw" name="&lt;&lt;component>>&#xA;RTCSystem">
+        <target xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RTCSystem']"/>
+        <semanticElements xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RTCSystem']"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_iMjfsJT-EeiygYT0QjcDrw" iconPath="/SysADL.viewpoints/icons/Component.gif" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_kd6eUJT-EeiygYT0QjcDrw" name="&lt;&lt;component>>&#xA;PresenceSensorCP">
+        <target xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='PresenceSensorCP']"/>
+        <semanticElements xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='PresenceSensorCP']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_nv2wMJT-EeiygYT0QjcDrw" name="detected : PresenceOPT [1,1] " tooltipText="Port detected" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='PresenceSensorCP']/@ports.0"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='PresenceSensorCP']/@ports.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_nwEyoJT-EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" width="2" height="2" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_kd7scJT-EeiygYT0QjcDrw" iconPath="/SysADL.viewpoints/icons/Component.gif" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_qi4RcJT-EeiygYT0QjcDrw" name="&lt;&lt;component>>&#xA;HeaterCP">
+        <target xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='HeaterCP']"/>
+        <semanticElements xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='HeaterCP']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_tKmhoJT-EeiygYT0QjcDrw" name="controller : CommandIPT [1,1] " tooltipText="Port controller" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='HeaterCP']/@ports.0"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='HeaterCP']/@ports.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_tKmhoZT-EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" width="2" height="2" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qi44gJT-EeiygYT0QjcDrw" iconPath="/SysADL.viewpoints/icons/Component.gif" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_vpGkYJT-EeiygYT0QjcDrw" name="&lt;&lt;component>>&#xA;CoolerCP">
+        <target xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='CoolerCP']"/>
+        <semanticElements xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='CoolerCP']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_2M7dwJT-EeiygYT0QjcDrw" name="controller : CommandIPT [1,1] " tooltipText="Port controller" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='CoolerCP']/@ports.0"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='CoolerCP']/@ports.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_2M7dwZT-EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" width="2" height="2" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_vpHLcJT-EeiygYT0QjcDrw" iconPath="/SysADL.viewpoints/icons/Component.gif" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_39eOUJT-EeiygYT0QjcDrw" name="&lt;&lt;component>>&#xA;RoomTemperatureControllerCP">
+        <target xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']"/>
+        <semanticElements xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_61_6oJT-EeiygYT0QjcDrw" name="userTemp : CTemperatureIPT [1,1] " tooltipText="Port userTemp" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']/@ports.0"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']/@ports.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_62AhsJT-EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" width="2" height="2" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_8_eIkJT-EeiygYT0QjcDrw" name="detected : PresenceIPT [1,1] " tooltipText="Port detected" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']/@ports.1"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']/@ports.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_8_evoJT-EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" width="2" height="2" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="__YvGAJT-EeiygYT0QjcDrw" name="cooling : CommandIPT [1,1] " tooltipText="Port cooling" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']/@ports.2"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']/@ports.2"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="__YvtEJT-EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" width="2" height="2" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_Cs0s8JT_EeiygYT0QjcDrw" name="localTemp2 : CTemperatureIPT [1,1] " tooltipText="Port localTemp2" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']/@ports.3"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']/@ports.3"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Cs1UAJT_EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" width="2" height="2" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_EC3S0JT_EeiygYT0QjcDrw" name="localTemp1 : CTemperatureIPT [1,1] " tooltipText="Port localTemp1" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']/@ports.4"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']/@ports.4"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_EC354JT_EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" width="2" height="2" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_KiqAwJT_EeiygYT0QjcDrw" name="heating : CommandOPT [1,1] " tooltipText="Port heating" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']/@ports.5"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='RoomTemperatureControllerCP']/@ports.5"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Kiqn0JT_EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" width="2" height="2" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_39eOUZT-EeiygYT0QjcDrw" iconPath="/SysADL.viewpoints/icons/Component.gif" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_OL4KMJT_EeiygYT0QjcDrw" name="&lt;&lt;component>>&#xA;TemperatureSensorCP">
+        <target xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='TemperatureSensorCP']"/>
+        <semanticElements xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='TemperatureSensorCP']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_TFzGgJT_EeiygYT0QjcDrw" name="current : FTemperatureOPT [1,1] " tooltipText="Port current" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='TemperatureSensorCP']/@ports.0"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='TemperatureSensorCP']/@ports.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_TFzGgZT_EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" width="2" height="2" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_OL5YUJT_EeiygYT0QjcDrw" iconPath="/SysADL.viewpoints/icons/Component.gif" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_UilNkJT_EeiygYT0QjcDrw" name="&lt;&lt;component>>&#xA;userInterfaceCP">
+        <target xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='userInterfaceCP']"/>
+        <semanticElements xmi:type="sysADL_Sintax:ComponentDef" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='userInterfaceCP']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_WT-5wJT_EeiygYT0QjcDrw" name="desired : CTemperatureOPT [1,1] " tooltipText="Port desired" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='userInterfaceCP']/@ports.0"/>
+          <semanticElements xmi:type="sysADL_Sintax:PortUse" href="RTC.sysadl#//@packages[name='RTCSystemComponents']/@architectures[name='userInterfaceCP']/@ports.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_WT_g0JT_EeiygYT0QjcDrw" showIcon="false" labelAlignment="LEFT" width="2" height="2" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@borderedNodeMappings[name='BDD.ComDef.Ports']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_UilNkZT_EeiygYT0QjcDrw" iconPath="/SysADL.viewpoints/icons/Component.gif" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_f29hVpT-EeiygYT0QjcDrw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer"/>
+    <target xmi:type="sysADL_Sintax:Package" href="RTC.sysadl#//@packages[name='RTCSystemComponents']"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
